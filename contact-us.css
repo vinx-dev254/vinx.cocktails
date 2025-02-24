@@ -1,0 +1,14 @@
+.contact-us-button{
+  color: black;
+  background-color: chocolate;
+  border: none;
+  height: 60px;
+  width: 300px;
+  font-size: large;
+  border-radius: 10px;
+}
+.contact-us-button:hover{
+  background-color: rgba(0, 0, 0, 0.404);
+  cursor: pointer;
+  transition: 0.5s;
+}

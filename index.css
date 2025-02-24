@@ -1,0 +1,137 @@
+body{
+  
+font-family: arial;
+padding-top: 97px;
+
+}
+.header{
+  height: 100px;
+  left: 0;
+  right:0;
+  top: 0;
+  position: fixed;
+  background-color: rgb(255, 166, 0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  border-bottom-style: solid;
+  border-bottom-color: grey;
+  border-width: 1px;
+  border-radius: 6px;
+  box-shadow: 6px 4px 4px black;
+  z-index: 100;
+ 
+}
+.vinx-logo-container{
+margin-left: 20px;
+}
+.vinx-logo{
+  height: 70px;
+  width: 90px;
+}
+.brand-name-container{
+  margin-left: 10px;
+  min-width: fit-content;
+  
+}
+.brand-name{
+  font-style: italic;
+  
+  
+}
+.nav-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+.nav{
+  margin-right: 20px;
+}
+
+.intro-container{
+  width: 650px;
+  height:300PX ;
+  line-height: 25px;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+  background-color: black;
+  margin: 0;
+  width: 100VW;
+  box-sizing: border-box;
+ 
+  
+}
+.second-line{
+  display: block;
+  text-align: center;
+}
+.welcoming{
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+  line-height: 40px;
+}
+.services{
+  background-color: gray;
+  margin: 0;
+  width: 100vw;
+  box-sizing: border-box;
+  padding-bottom:20px ;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.h2{
+  margin-top: 0;
+  padding-top: 20px;
+  font-size: 30px;
+}
+.service{
+  display: flex;
+  flex-direction: row;
+  max-width: 800px;
+  text-align: left;
+  align-items: center;
+  
+}
+.service-img{
+  height: 150px;
+  margin: 20px;
+}
+.reverse{
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: left;
+}
+.icon-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  background-color: black;
+  color: white;
+  margin: 0;
+  width: 100vw;
+  box-sizing: border-box;
+}
+.icon{
+  height: 15px;
+  margin-right: 10px;
+  
+}
+.contact-icons,
+.copyright-icon
+{
+  height: 15px;
+}
+.contact-icon-container{
+  margin-left: 15px;
+}
+
