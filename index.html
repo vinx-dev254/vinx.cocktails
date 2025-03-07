@@ -4,130 +4,193 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VinX Cocktails and Mixology</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+   
+    <link rel="stylesheet" href="styles.css">
     
   </head>
+
   <body>
-    <div class="header">
-      <div class="vinx-logo-container">
-        <img class="vinx-logo" src="logos/2025-01-21-bbe83bfe-upload-logo_.webp">
-      </div>
-      <div class="brand-name-container">
-        <h1 class="brand-name">VinX Coctails and Mixology</h1>
-      </div>
-      <div class="nav-section">
-        <div class="nav">
-          <a href="index.html">
-          Home
-          </a>
-        </div>
-
-        <div class="nav">
-         <a href="About-Us.html">
-          About Us
-        </a>
-        </div>
-
-        <div class="nav">
-          <a href="services.html">
-            Services
-          </a>
+    <header id="#">
+      <div class="header-section">
+        <div class="brand-name">
+          <h1>VinX Coctails and Mixology</h1>
+         
         </div>
         
+        <nav>
+          <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
 
-        <div class="nav">
-          <a href="blog.html">
-            Blog
-          </a>
-        </div>
-        
-
-        <div class="nav">
-          <a href="contact-us.html">
-            Contact Us
-          </a>
-        </div>
+            <ul class="navbar-items">
+              <li class="nav-item"><a href="index.html">Home</a></li>
+              <li class="nav-item"><a href="about-us.html">About Us</a></li>
+              <li class="nav-item"><a href="services.html">Services</a></li>
+              <li class="nav-item"><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
       </div>
-    </div>
+    </header>
 
+    <!--showcase-->
+    <main>
 
-    <div class=about-us-container>
-      <div class="intro-container">
-          At VinX Cocktails & Mixology, we specialize in
-           crafting exquisite cocktailstailored
-             to your<span class="second-line"> unique
-            events,
-           ensuring every sip is a celebration.</span>
-        <div class="welcoming">
-          Cheers to Unforgettable <span class="second-line">Experiences</span>
+      <section>
+        <div class="intro">
+          <div class="overlay">
+            <div class="text">
+              <h1>Welcome to VinX Cocktails and Mixology</h1>
+              <p >
+                We are a cocktail and mixology company specializing in creating unique and enjoyable cocktails for various events.
+                
+              </p>
+              <a href="services.html">
+                <button class="btn">
+                  Learn more
+                </button>
+              </a>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
+      </section>
 
 
-    <div class="services">
-      <h2 class="h2">
-        Tailored Cocktail Catering
-      </h2>
-      <h2>
-        Crafting the perfect cocktail experience for every occasion.
-      </h2>
-      <div class="service">
-        <img class="service-img" src="logos/pic1.webp">
-        <div>
-          <h3>
-            Corporate Events
-          </h3>
-          <p>
-            Enhance your corporate gatherings with our professional cocktail services, designed to impress clients and colleagues alike.
+
+      <section>
+        <div class="our-offers">
+          <h2 style="color: white;">
+            Tailored Catering Services
+          </h2>
+          <p style="color: grey;">
+            We offer a wide range of tailored cocktail catering solutions,
+            suitable for various events, from small gatherings to large celebrations.
+            Let us help you create a memorable and enjoyable experience for your guests.
           </p>
+          <div class="grid-system">
+            <div class="card">
+              <div class="img-container">
+                <img src="logos/img a.jpg" alt="Card 1">
+              </div>
+              
+              <h3>
+                Corporate Events
+              </h3>
+              <p>
+                Enhance your corporate gatherings with our professional cocktail services, designed to impress clients and colleagues alike.
+              </p>
+            </div>
+            <div class="card">
+              <div class="img-container">
+                <img src="logos/img b.webp" alt="Card 2">
+              </div>
+              
+              <h3>
+                Weddings
+              </h3>
+              <p>
+                Make your special day unforgettable with our custom cocktail menus, ensuring every toast is memorable and delightful.
+              </p>
+            </div>
+
+            <div class="card">
+              <div class="img-container">
+                <img src="logos/img c.jpg" alt="Card 2">
+              </div>
+              
+              <h3>
+                Private Parties
+              </h3>
+              <p>
+                Whether it’s a birthday, anniversary, or any celebration, our bespoke mixology services will elevate your gathering and keep your guests entertained.
+              </p>
+            </div>
+
+          </div>
+         
+         
         </div>
-      </div>
       
+
+      </section>
+
+<!--testimonials-->
+      <section>
+        <div class="Testimonials">
+          <h1>
+            Hear From Our Clients
+
+          </h1>
+          <p>
+            See what others are saying about their VinX experience.
+          </p>
+          <div class="grid-system">
+            <div class="card">
+              <div class="img-container">
+                <img src="logos/img d.jpg" alt="Card 1">
+              </div>
+              
+              <h3>
+                Exceptional Service
+              </h3>
+              <p>
+                Our guests were blown away by the creativity and flair of the cocktails. VinX made our event truly special!
+              </p>
+            </div>
+            <div class="card">
+              <div class="img-container">
+                <img src="logos/img e.jpg" alt="Card 2">
+              </div>
+              
+              <h3>
+                Unforgettable Cocktails
+              </h3>
+              <p>
+                The drinks were not only delicious but also beautifully presented. Everyone was raving about them long after the event.
+              </p>
+            </div>
+
+            <div class="card">
+              <div class="img-container">
+                <img src="logos/img f.jpg" alt="Card 2">
+              </div>
+              
+              <h3>
+                Professional Team
+              </h3>
+              <p>
+                From start to finish, the VinX team was professional, friendly, and attentive. They went above and beyond to ensure everything was perfect.
+              </p>
+            </div>
+
+          </div>
+                  
+
+           
+         
+        </div>
+      </section>
+    </main>
+    
+    <footer>
       
-      <div class="reverse">
-        <img class="service-img" src="logos/pic2.webp">
-        <div>
-          <h3>
-            Weddings
-          </h3>
-          <p>
-            Make your special day unforgettable with 
-            our custom cocktail menus, ensuring every 
-            toast is memorable and delightful.
-          </p>
-        </div>
+      <p>
+        &copy; 2022 VinX Cocktails and Mixology. All rights reserved.
+      </p>
+      <div class="social-media">
+        <a href="#"><i class="bi-facebook"></i></a>
+        <a href="#"><i class="bi-instagram"></i></a>
+        <a href="#"><i class="bi-twitter"></i></a>
       </div>
+      <a href="#">
+        <i class="bi-arrow-up-circle"></i>
+      </a>
 
-          
-      <div class="service">
-        <img class="service-img" src="logos/pic3.webp">
-        <div>
-          <h3>
-            Private Parties
-          </h3>
-          <p>
-            Whether it's a birthday, anniversary, or any celebration, our bespoke mixology services will elevate your gathering and keep your guests entertained.
-          </p>
-        </div>
-      </div>
-    </div>
+    </footer>
 
 
-  <div class="icon-section">
-    <a href="https://www.instagram.com/vinx_codes_n_crafts/?hl=en" target="_blank">
-      <img class="icon" src="icons/instagram-icon.png">
-    </a>
-    <a href="https://www.facebook.com/profile.php?id=61571622358669&rdid=mo9jjOwcbrwtq2PU&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1DqEdNYREv%2F#" target="_blank">
-      <img class="icon" src="icons/facebook-icon.png">
-    </a>  
-   
-    <a href="https://x.com/Nelvin_ke" target="_blank">
-      <img class="icon" src="icons/x-icon.png">
-    </a> 
-  </div>
-
-
-</div>
- </body>
-</html>
+  </body>
+ 

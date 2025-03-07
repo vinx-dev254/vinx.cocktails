@@ -1,0 +1,30 @@
+.excellence{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(34, 34, 34);
+}
+.flex-box,
+.row-reverse{
+  color: white;
+}
+.Premium-cocktails{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(18, 143, 192);
+ 
+}
+.our-offers button{
+  background-color:  rgb(202, 105, 36);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}

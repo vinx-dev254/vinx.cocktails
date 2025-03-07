@@ -4,87 +4,151 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VinX Cocktails and Mixology</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="About-Us.css">
     <link rel="stylesheet" href="contact-us.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   </head>
   <body>
-    <div class="header">
-      <div class="vinx-logo-container">
-        <img class="vinx-logo" src="logos/2025-01-21-bbe83bfe-upload-logo_.webp">
-      </div>
-      <div class="brand-name-container">
-        <h1 class="brand-name">VinX Coctails and Mixology</h1>
-      </div>
-      <div class="nav-section">
-        <div class="nav">
-          <a href="index.html">
-          Home
-          </a>
-        </div>
-
-        <div class="nav">
-         <a href="About-Us.html">
-          About Us
-        </a>
-        </div>
-
-        <div class="nav">
-          <a href="services.html">
-            Services
-          </a>
+    <header id="#">
+      <div class="header-section">
+        <div class="brand-name">
+          <h1>VinX Coctails and Mixology</h1>
+         
         </div>
         
+        <nav>
+          <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
 
-        <div class="nav">
-          <a href="blog.html">
-            Blog
-          </a>
-        </div>
-        
+            <ul class="navbar-items">
+              <li class="nav-item"><a href="index.html">Home</a></li>
+              <li class="nav-item"><a href="about-us.html">About Us</a></li>
+              <li class="nav-item"><a href="services.html">Services</a></li>
+              <li class="nav-item"><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+      </div>
+    </header>
 
-        <div class="nav">
-          <a href="contact-us.html">
-            Contact Us
-          </a>
+    <section>
+      <div class="intro">
+        <div class="overlay">
+          <div class="text">
+            <h1>Get in Touch with VinX</h1>
+            <p >
+              We’re here to elevate your even
+              
+            </p>
+            <a href="services.html">
+              <button class="btn">
+                Contact-Us
+              </button>
+            </a>
+          </div>
         </div>
       </div>
-    </div>
- <div class="about-us-container">
-    <img class="about-us-pic" src="logos/about us pic 2.jpg" 
-    alt="Cocktails">
-    <div class="overlay-text">
-      <h2>
-        Get in Touch with VinX
-      </h2>
-      <h3>
-        We’re here to elevate your event.
-      </h3>
-      <a href="mailto:nelvinomondi254@gmail.com">
-        <button class="contact-us-button">
-          Contact Us
-        </button>
+    </section>
+
+
+
+
+    <section>
+      <div class="contact-section">
+        <h2>Our Location & Hours</h2>
+        <h3>
+          Discover where to find us and when.
+        </h3>
+
+
+        <div class="flex-box">
+          <div class="image-box">
+            <img src="logos/img c.jpg" alt="Image 1">
+          </div>
+          <div class="text-box">
+            <h3>
+              Where We Serve
+            </h3>
+            <p>
+              VinX Cocktails: Bringing the Bar to You Across Mombasa and Beyond!
+
+              At VinX Cocktails and Mixology, we specialize in mobile cocktail catering services across Mombasa and its surrounding areas. Whether you're hosting a corporate event, wedding, or private party, we bring the bar to your doorstep, ensuring a seamless and unforgettable experience.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex-box">
+          <div class="image-box">
+            <img src="logos/img c.jpg" alt="Image 1">
+          </div>
+          <div class="text-box">
+            <h3>
+              Business Hours
+            </h3>
+            <p>
+              Flexible Hours to Serve You Better!We know events can happen at any time, and we’re here to make them memorable. While our office hours for inquiries are listed below, our team is available to cater events on any day, including late-night celebrations and early-morning receptions.
+
+Inquiries & Consultations:Monday to Friday: 9:00 AM – 6:00 PM
+
+Event Services:Customizable hours to suit your event's needs.
+
+Reach out to discuss your event’s schedule, and we’ll be happy to work with you!
+            </p>
+          </div>
+        </div>
+      </div>
+     
+    </section>
+
+      <!--contact details-->
+      <section>
+        <div class="contact-details">
+          <h2>Reach Out Today</h2>
+          <h3>
+            Let’s create unforgettable experiences together.
+          </h3>
+
+          <div class="info">
+            <ul>
+              <li><i class="bi-alarm">24/7</i></li>
+              <li><i class="bi-geo-alt-fill">Mombasa,Kenya.</i></li>
+              <li><i class="bi-phone">0113868864</i></li>
+              <li><i class="bi-envelope">nelvinomondi254@gmail.com</i></li>
+            </ul>
+          </div>
+
+          <form>
+            <div class="form">
+              <input type="text" name="name" placeholder="Name" required>
+              <input type="email" name="email" placeholder="Email" required>
+              <input type="text" name="phone" placeholder="Phone Number" required>
+              <textarea name="message" placeholder="Message" required></textarea>
+              <button type="submit">Submit</button>
+            </div>
+            
+
+          </form>
+        </div>
+      </section>
+
+    <footer>
+      <p>
+        &copy; VinX Cocktails & Mixology 2022. All rights reserved.
+      </p>
+      <div class="social-media">
+        <a href="#"><i class="bi-facebook"></i></a>
+        <a href="#"><i class="bi-twitter"></i></a>
+        <a href="#"><i class="bi-instagram"></i></a>
+      </div>
+      <a href="#">
+        <i class="bi-arrow-up-circle"></i>
       </a>
-    </div>
- </div>
-
-
- 
- <div class="icon-section">
-  <a href="https://www.instagram.com/vinx_codes_n_crafts/?hl=en" target="_blank">
-    <img class="icon" src="icons/instagram-icon.png">
-  </a>
-  <a href="https://www.facebook.com/profile.php?id=61571622358669&rdid=mo9jjOwcbrwtq2PU&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1DqEdNYREv%2F#" target="_blank">
-    <img class="icon" src="icons/facebook-icon.png">
-  </a>  
-  
-  <a href="https://x.com/Nelvin_ke" target="_blank">
-    <img class="icon" src="icons/x-icon.png">
-  </a> 
-
-  
- 
-</div>
+    </footer>
+   
   </body>
 </html>
 
